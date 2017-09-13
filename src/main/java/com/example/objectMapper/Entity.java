@@ -15,5 +15,7 @@ public class Entity {
    private  String field;
    @JsonProperty("list")
    private List<String> list =new ArrayList<>();
+   @JsonProperty("pojo")
+   private Pojo pojo;
 
 }

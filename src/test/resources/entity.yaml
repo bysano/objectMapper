@@ -3,8 +3,12 @@
   list:
     - step2
     - step3
+  pojo:
+   embeded: valueembbed
 - name: step2
   field: b
   list:
     - step1
     - step3
+  pojo:
+   embeded: valueembbed
