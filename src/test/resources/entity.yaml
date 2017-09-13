@@ -1,0 +1,10 @@
+- name: step1
+  field: a
+  list:
+    - step2
+    - step3
+- name: step2
+  field: b
+  list:
+    - step1
+    - step3
