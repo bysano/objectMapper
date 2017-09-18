@@ -25,15 +25,11 @@ public class ObjectMapperApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-
-
-
-
 	@Test
 	public void creatingEntityFromYaml() {
 		List<Entity> entityList;
-		String workflowStepsYamlFilePath = "entity.yaml";
-		URL resourceURL = getClass().getClassLoader().getResource(workflowStepsYamlFilePath);
+//		String workflowStepsYamlFilePath = "entity.yaml";
+//		URL resourceURL = getClass().getClassLoader().getResource(workflowStepsYamlFilePath);
 		try{
 		if (resourceURL == null) {
 			throw new IllegalArgumentException("File not found by path " + workflowStepsYamlFilePath);
